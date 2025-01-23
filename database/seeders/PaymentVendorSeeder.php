@@ -3,13 +3,13 @@
 namespace Database\Seeders;
 
 use Carbon\Carbon;
-use App\Models\Order;
-use App\Models\Vendor;
-use App\Models\Payment;
-use App\Models\Commission;
-use App\Models\VendorEarning;
-use App\Models\PaymentMethod;
 use Illuminate\Database\Seeder;
+use Modules\Orders\Models\Order;
+use Modules\Payments\Models\Payment;
+use Modules\Payments\Models\PaymentMethod;
+use Modules\Vendor\Models\Commission;
+use Modules\Vendor\Models\Vendor;
+use Modules\Vendor\Models\VendorEarning;
 
 class PaymentVendorSeeder extends Seeder
 {

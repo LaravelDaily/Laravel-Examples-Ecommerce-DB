@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use App\Models\EmailCampaignStatus;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Marketing\Models\EmailCampaignStatus;
 
 class EmailCampaignStatusController extends Controller
 {

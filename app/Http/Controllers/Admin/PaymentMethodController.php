@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use App\Models\PaymentMethod;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Payments\Models\PaymentMethod;
 
 class PaymentMethodController extends Controller
 {

@@ -2,9 +2,9 @@
 
 namespace Database\Factories;
 
-use App\Models\EmailCampaign;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Marketing\Models\EmailCampaign;
 
 class EmailCampaignFactory extends Factory
 {

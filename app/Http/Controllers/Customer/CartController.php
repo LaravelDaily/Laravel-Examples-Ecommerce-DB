@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Customer;
 
-use App\Models\Cart;
-use App\Models\Product;
 use App\Http\Controllers\Controller;
+use Modules\Cart\Models\Cart;
+use Modules\Inventory\Models\Product;
 
 class CartController extends Controller
 {

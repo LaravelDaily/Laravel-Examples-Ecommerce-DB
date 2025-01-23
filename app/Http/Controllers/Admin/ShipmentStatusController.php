@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use App\Models\OrderShipmentStatus;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Shipping\Models\OrderShipmentStatus;
 
 class ShipmentStatusController extends Controller
 {

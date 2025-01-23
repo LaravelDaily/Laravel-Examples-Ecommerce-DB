@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-use App\Models\Role;
-use App\Models\UserAddress;
 use Illuminate\Database\Seeder;
+use Modules\User\Models\Role;
+use Modules\User\Models\User;
+use Modules\User\Models\UserAddress;
 
 class UserAddressSeeder extends Seeder
 {

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use App\Models\ProductCategory;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Inventory\Models\ProductCategory;
 
 class ProductCategoryController extends Controller
 {

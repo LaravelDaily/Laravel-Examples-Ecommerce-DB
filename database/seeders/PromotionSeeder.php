@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\Promotion;
 use Illuminate\Database\Seeder;
+use Modules\Payments\Models\Promotion;
 
 class PromotionSeeder extends Seeder
 {

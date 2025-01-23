@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use App\Models\ProductStatus;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Inventory\Models\ProductStatus;
 
 class ProductStatusController extends Controller
 {

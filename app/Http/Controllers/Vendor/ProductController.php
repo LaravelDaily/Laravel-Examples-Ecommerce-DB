@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Vendor;
 
-use App\Models\Product;
 use App\Http\Controllers\Controller;
+use Modules\Inventory\Models\Product;
 
 class ProductController extends Controller
 {

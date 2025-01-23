@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-use App\Models\Vendor;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Storage;
+use Modules\User\Models\User;
+use Modules\Vendor\Models\Vendor;
 
 class VendorSeeder extends Seeder
 {

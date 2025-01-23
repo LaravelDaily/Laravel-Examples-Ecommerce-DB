@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Vendor;
 
-use App\Models\Coupon;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Payments\Models\Coupon;
 
 class CouponController extends Controller
 {

@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Vendor;
-use App\Models\Product;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Storage;
+use Modules\Inventory\Models\Product;
+use Modules\Vendor\Models\Vendor;
 
 class ProductFactory extends Factory
 {

@@ -3,18 +3,18 @@
 namespace Database\Seeders;
 
 use Carbon\Carbon;
-use App\Models\User;
-use App\Models\Order;
-use App\Models\Product;
-use App\Models\OrderItem;
-use App\Models\OrderReturn;
-use App\Models\OrderRefund;
-use App\Models\OrderStatus;
-use App\Models\OrderShipment;
 use Illuminate\Database\Seeder;
-use App\Models\OrderReturnStatus;
-use App\Models\OrderRefundStatus;
-use App\Models\OrderShipmentStatus;
+use Modules\Inventory\Models\Product;
+use Modules\Orders\Models\Order;
+use Modules\Orders\Models\OrderItem;
+use Modules\Orders\Models\OrderRefund;
+use Modules\Orders\Models\OrderRefundStatus;
+use Modules\Orders\Models\OrderStatus;
+use Modules\Shipping\Models\OrderReturn;
+use Modules\Shipping\Models\OrderReturnStatus;
+use Modules\Shipping\Models\OrderShipment;
+use Modules\Shipping\Models\OrderShipmentStatus;
+use Modules\User\Models\User;
 
 class OrderSeeder extends Seeder
 {

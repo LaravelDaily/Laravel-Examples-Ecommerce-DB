@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Customer;
 
-use App\Models\Product;
 use App\Http\Controllers\Controller;
+use Modules\Inventory\Models\Product;
 
 class ReviewController extends Controller
 {

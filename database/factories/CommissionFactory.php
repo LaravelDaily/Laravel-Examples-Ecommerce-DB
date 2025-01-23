@@ -2,11 +2,11 @@
 
 namespace Database\Factories;
 
-use App\Models\Order;
-use App\Models\Vendor;
-use App\Models\Commission;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Orders\Models\Order;
+use Modules\Vendor\Models\Commission;
+use Modules\Vendor\Models\Vendor;
 
 class CommissionFactory extends Factory
 {

@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Role;
-use App\Models\User;
-use App\Models\Product;
-use App\Models\Wishlist;
 use Illuminate\Database\Seeder;
+use Modules\Inventory\Models\Product;
+use Modules\User\Models\Role;
+use Modules\User\Models\User;
+use Modules\Wishlist\Models\Wishlist;
 
 class WishlistSeeder extends Seeder
 {

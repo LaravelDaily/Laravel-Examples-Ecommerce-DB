@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\OrderShipmentStatus;
+use Modules\Shipping\Models\OrderShipmentStatus;
 
 class OrderShipmentStatusSeeder extends Seeder
 {

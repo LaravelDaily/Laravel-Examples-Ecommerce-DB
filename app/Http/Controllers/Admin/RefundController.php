@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\OrderRefund;
 use Illuminate\Http\Request;
+use Modules\Orders\Models\OrderRefund;
 
 class RefundController extends Controller
 {

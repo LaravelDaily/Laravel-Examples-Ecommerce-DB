@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Role;
-use App\Models\User;
-use App\Models\Vendor;
-use App\Models\VendorReview;
 use Illuminate\Database\Seeder;
+use Modules\User\Models\Role;
+use Modules\User\Models\User;
+use Modules\Vendor\Models\Vendor;
+use Modules\Vendor\Models\VendorReview;
 
 class VendorReviewsSeeder extends Seeder
 {

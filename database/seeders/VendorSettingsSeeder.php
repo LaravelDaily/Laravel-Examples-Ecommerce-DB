@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\Vendor;
-use App\Models\VendorSetting;
 use Illuminate\Database\Seeder;
+use Modules\Vendor\Models\Vendor;
+use Modules\Vendor\Models\VendorSetting;
 
 class VendorSettingsSeeder extends Seeder
 {

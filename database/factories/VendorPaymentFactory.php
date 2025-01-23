@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Vendor;
-use App\Models\VendorPayment;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Vendor\Models\Vendor;
+use Modules\Vendor\Models\VendorPayment;
 
 class VendorPaymentFactory extends Factory
 {

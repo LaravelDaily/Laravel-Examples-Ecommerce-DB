@@ -2,15 +2,15 @@
 
 namespace Database\Seeders;
 
-use App\Models\Vendor;
-use App\Models\Product;
-use App\Models\ProductTag;
-use App\Models\ProductStatus;
-use App\Models\ProductVariant;
 use Illuminate\Database\Seeder;
-use App\Models\ProductCategory;
-use App\Models\ProductAttribute;
 use Illuminate\Support\Facades\Storage;
+use Modules\Inventory\Models\Product;
+use Modules\Inventory\Models\ProductAttribute;
+use Modules\Inventory\Models\ProductCategory;
+use Modules\Inventory\Models\ProductStatus;
+use Modules\Inventory\Models\ProductTag;
+use Modules\Inventory\Models\ProductVariant;
+use Modules\Vendor\Models\Vendor;
 
 class ProductSeeder extends Seeder
 {

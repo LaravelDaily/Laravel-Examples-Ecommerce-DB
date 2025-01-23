@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use App\Models\ProductAttribute;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Inventory\Models\ProductAttribute;
 
 class ProductAttributeController extends Controller
 {

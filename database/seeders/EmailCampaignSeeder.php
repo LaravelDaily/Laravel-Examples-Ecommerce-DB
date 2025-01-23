@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\EmailCampaign;
 use Illuminate\Database\Seeder;
-use App\Models\EmailCampaignStatus;
+use Modules\Marketing\Models\EmailCampaign;
+use Modules\Marketing\Models\EmailCampaignStatus;
 
 class EmailCampaignSeeder extends Seeder
 {

@@ -2,12 +2,12 @@
 
 namespace Database\Factories;
 
-use App\Models\Order;
-use App\Models\Product;
-use App\Models\OrderItem;
-use App\Models\ProductVariant;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Inventory\Models\Product;
+use Modules\Inventory\Models\ProductVariant;
+use Modules\Orders\Models\Order;
+use Modules\Orders\Models\OrderItem;
 
 class OrderItemFactory extends Factory
 {

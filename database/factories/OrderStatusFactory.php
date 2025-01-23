@@ -2,9 +2,9 @@
 
 namespace Database\Factories;
 
-use App\Models\OrderStatus;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Orders\Models\OrderStatus;
 
 class OrderStatusFactory extends Factory
 {

@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\OrderStatus;
 use Illuminate\Http\Request;
+use Modules\Orders\Models\OrderStatus;
 
 class OrderStatusController extends Controller
 {

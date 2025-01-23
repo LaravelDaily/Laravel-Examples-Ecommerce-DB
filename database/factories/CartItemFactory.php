@@ -2,12 +2,12 @@
 
 namespace Database\Factories;
 
-use App\Models\Cart;
-use App\Models\Product;
-use App\Models\CartItem;
-use App\Models\ProductVariant;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Cart\Models\Cart;
+use Modules\Cart\Models\CartItem;
+use Modules\Inventory\Models\Product;
+use Modules\Inventory\Models\ProductVariant;
 
 class CartItemFactory extends Factory
 {

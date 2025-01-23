@@ -2,11 +2,11 @@
 
 namespace Database\Factories;
 
-use App\Models\Product;
-use App\Models\ProductVariant;
-use Illuminate\Support\Carbon;
-use App\Models\ProductAttribute;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Inventory\Models\Product;
+use Modules\Inventory\Models\ProductAttribute;
+use Modules\Inventory\Models\ProductVariant;
 
 class ProductVariantFactory extends Factory
 {

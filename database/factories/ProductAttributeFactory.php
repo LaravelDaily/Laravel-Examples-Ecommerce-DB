@@ -2,9 +2,9 @@
 
 namespace Database\Factories;
 
-use Illuminate\Support\Carbon;
-use App\Models\ProductAttribute;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Inventory\Models\ProductAttribute;
 
 class ProductAttributeFactory extends Factory
 {

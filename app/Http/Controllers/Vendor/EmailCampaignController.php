@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Vendor;
 
-use Illuminate\Http\Request;
-use App\Models\EmailCampaign;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Modules\Marketing\Models\EmailCampaign;
 
 class EmailCampaignController extends Controller
 {

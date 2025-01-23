@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\PaymentMethod;
 use Illuminate\Database\Seeder;
+use Modules\Payments\Models\PaymentMethod;
 
 class PaymentMethodSeeder extends Seeder
 {

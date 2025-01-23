@@ -2,11 +2,11 @@
 
 namespace Database\Factories;
 
-use App\Models\User;
-use App\Models\Vendor;
+use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
-use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\User\Models\User;
+use Modules\Vendor\Models\Vendor;
 
 class VendorFactory extends Factory
 {

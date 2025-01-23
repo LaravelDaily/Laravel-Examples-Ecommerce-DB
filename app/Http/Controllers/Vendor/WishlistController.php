@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Vendor;
 
 use App\Http\Controllers\Controller;
-use App\Models\Wishlist;
+use Modules\Wishlist\Models\Wishlist;
 
 class WishlistController extends Controller
 {

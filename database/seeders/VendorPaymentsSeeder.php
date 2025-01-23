@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\Vendor;
-use App\Models\VendorPayment;
 use Illuminate\Database\Seeder;
+use Modules\Vendor\Models\Vendor;
+use Modules\Vendor\Models\VendorPayment;
 
 class VendorPaymentsSeeder extends Seeder
 {

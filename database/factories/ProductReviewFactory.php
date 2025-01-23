@@ -2,11 +2,11 @@
 
 namespace Database\Factories;
 
-use App\Models\User;
-use App\Models\Product;
-use App\Models\ProductReview;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Inventory\Models\Product;
+use Modules\Inventory\Models\ProductReview;
+use Modules\User\Models\User;
 
 class ProductReviewFactory extends Factory
 {

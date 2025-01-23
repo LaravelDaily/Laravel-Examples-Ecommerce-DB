@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\OrderReturnStatus;
+use Modules\Shipping\Models\OrderReturnStatus;
 
 class ReturnStatusController extends Controller
 {

@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\User;
-use App\Models\UserAddress;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\User\Models\User;
+use Modules\User\Models\UserAddress;
 
 class UserAddressFactory extends Factory
 {

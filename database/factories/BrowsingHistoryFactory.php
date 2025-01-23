@@ -2,11 +2,11 @@
 
 namespace Database\Factories;
 
-use App\Models\User;
-use App\Models\Product;
-use Illuminate\Support\Carbon;
-use App\Models\BrowsingHistory;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\History\Models\BrowsingHistory;
+use Modules\Inventory\Models\Product;
+use Modules\User\Models\User;
 
 class BrowsingHistoryFactory extends Factory
 {

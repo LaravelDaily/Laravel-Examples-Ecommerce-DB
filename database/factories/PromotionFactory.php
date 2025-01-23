@@ -2,9 +2,9 @@
 
 namespace Database\Factories;
 
-use App\Models\Promotion;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Payments\Models\Promotion;
 
 class PromotionFactory extends Factory
 {

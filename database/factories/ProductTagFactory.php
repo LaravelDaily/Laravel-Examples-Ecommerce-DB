@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Product;
-use App\Models\ProductTag;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Carbon;
+use Modules\Inventory\Models\Product;
+use Modules\Inventory\Models\ProductTag;
 
 class ProductTagFactory extends Factory
 {

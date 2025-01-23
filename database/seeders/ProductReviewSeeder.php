@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-use App\Models\Product;
-use App\Models\ProductReview;
 use Illuminate\Database\Seeder;
+use Modules\Inventory\Models\Product;
+use Modules\Inventory\Models\ProductReview;
+use Modules\User\Models\User;
 
 class ProductReviewSeeder extends Seeder
 {

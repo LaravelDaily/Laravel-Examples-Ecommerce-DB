@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\Cart;
-use App\Models\Role;
-use App\Models\User;
 use Illuminate\Database\Seeder;
+use Modules\Cart\Models\Cart;
+use Modules\User\Models\Role;
+use Modules\User\Models\User;
 
 class CartSeeder extends Seeder
 {
