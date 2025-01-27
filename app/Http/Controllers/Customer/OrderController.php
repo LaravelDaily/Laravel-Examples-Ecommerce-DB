@@ -12,7 +12,14 @@ class OrderController extends Controller
 {
     public function index() {}
 
-    public function show(Order $order) {}
+    public function show(Order $order)
+    {
+        $order->load([
+            'user',
+        ]);
+
+        return $order;
+    }
 
     public function store(Cart $cart, UserAddress $userAddress): Order
     {
