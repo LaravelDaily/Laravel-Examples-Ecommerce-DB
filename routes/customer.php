@@ -21,7 +21,7 @@ Route::group(['middleware' => ['auth']], function () {
     // Orders
     Route::get('orders', [OrderController::class, 'index']); // List user orders
     Route::get('orders/{order}', [OrderController::class, 'show']); // View order details
-    Route::post('orders', [OrderController::class, 'store']); // Place an order
+    Route::post('orders/{cart}/{userAddress}', [OrderController::class, 'store']); // Place an order
 
     // User Profile
     Route::get('profile', [ProfileController::class, 'show']); // View user profile

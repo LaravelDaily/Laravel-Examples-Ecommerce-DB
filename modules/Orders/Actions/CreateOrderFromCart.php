@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Cart\Actions;
+namespace Modules\Orders\Actions;
 
 use Modules\Cart\Models\Cart;
 use Modules\Orders\Models\Order;

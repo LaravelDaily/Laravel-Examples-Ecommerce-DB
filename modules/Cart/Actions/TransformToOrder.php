@@ -3,6 +3,7 @@
 namespace Modules\Cart\Actions;
 
 use Modules\Cart\Models\Cart;
+use Modules\Orders\Actions\CreateOrderFromCart;
 use Modules\Orders\Models\Order;
 use Modules\User\Models\UserAddress;
 
